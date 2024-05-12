@@ -36,12 +36,18 @@ body {
   justify-content: space-between;
 }
 
-.header {
+/* The header text is vertically centered and 16px from the edge of the screen. */
 
+.header {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
 }
 
 .content {
-  
+
 }
 
 .footer {
