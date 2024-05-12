@@ -36,7 +36,6 @@ body {
   justify-content: space-between;
 }
 
-/* The header text is vertically centered and 16px from the edge of the screen. */
 
 .header {
   display: flex;
@@ -50,6 +49,10 @@ body {
 
 }
 
-.footer {
+/* The footer text is centered horizontally and vertically. */
 
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
